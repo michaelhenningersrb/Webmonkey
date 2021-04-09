@@ -20,7 +20,7 @@ const pkg = JSON.parse(
 );
 
 async function main() {
-    const header = figlet.textSync(capitalise(pkg.name), { font: 'univers' });
+    const header = figlet.textSync(capitalise(pkg.name), { font: 'Univers' });
     header && console.log(chalk.gray(header));
 
     console.log(
